@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="jkuat_green">#00963f</color>
+    <color name="jkuat_blue">#00509e</color>
+    <color name="jkuat_yellow">#fcd116</color>
+    <color name="logo_background">#FFFFFF</color>
+
+    <color name="primary">#00509e</color>
+    <color name="primary_dark">#002d5a</color>
+    <color name="primary_light">#5e7cce</color>
+    <color name="accent">#fcd116</color>
+    <color name="primary_text">#212121</color>
+    <color name="secondary_text">#757575</color>
+    <color name="icons">#FFFFFF</color>
+    <color name="divider">#BDBDBD</color>
+</resources>

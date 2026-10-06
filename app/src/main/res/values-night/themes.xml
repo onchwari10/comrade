@@ -1,0 +1,10 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.Test" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your dark theme here. -->
+        <item name="colorPrimary">@color/jkuat_green</item>
+        <item name="colorSecondary">@color/jkuat_blue</item>
+        <item name="colorTertiary">@color/jkuat_yellow</item>
+        <item name="android:statusBarColor">@color/jkuat_green</item>
+    </style>
+</resources>

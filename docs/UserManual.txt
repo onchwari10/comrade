@@ -1,0 +1,73 @@
+# Comrade App User Manual
+
+## Overview
+Comrade is a student financial health and micro-lending platform designed to help users save, borrow, and manage funds individually or within groups (Chamas). Our motto: *Financial partnership, real progress.*
+
+## Use Cases & Functionality
+1. **Financial Tracking**: Monitor deposits, withdrawals, and loans in real-time.
+2. **Instant Micro-loans**: Access quick credit based on savings and the SACCO Credit Score.
+3. **Chama (Group) Savings**: Collaborative saving and peer-to-peer lending with sectioned categories: *My Created Chamas*, *Joined Chamas*, and *Other Chamas*.
+4. **Member Dashboard**: Personalized status view within each group showing contributions and group-specific loan balances.
+5. **Mini-statements**: Generate and download PDF reports of your financial activity directly to your phone.
+6. **Restricted Support Chat**: Secure communication with Administrators or fellow members of your specific Chamas.
+
+## The SACCO Credit Score Formula
+The system uses a dynamic scoring model (300 - 850 points) to determine your borrowing power:
+1. **Base Score (300 pts)**: Every new member starts here.
+2. **Savings Discipline (Max 150 pts)**:
+   - Monthly consistency: +100 pts.
+   - Savings growth: +30 pts.
+   - Low withdrawal frequency: +20 pts.
+3. **Loan Repayment History (Max 200 pts)**:
+   - On-time payments: +150 pts.
+   - Early repayment bonus: +30 pts.
+   - Perfect record (no missed payments): +20 pts.
+4. **Loan Utilization (Max 100 pts)**:
+   - Using <50% of limit: +100 pts.
+   - Using 50-80%: +50 pts.
+   - Using >80%: +20 pts.
+5. **Membership Duration (Max 100 pts)**:
+   - Earn points based on time since registration (0-6 months to 2+ years).
+*Penalties: Missed payment (-50 pts), Late payment (-30 pts).*
+
+## Financial Metrics
+### Individual Loans
+- **Loan Limit**: `Locked Savings * Borrowing Multiplier`.
+- **Borrowing Multiplier**: Ranges from 1.5x to 3.0x based on your SACCO Credit Score.
+- **Loan IDs**: Unique 5-character alphanumeric codes (e.g., `AB12X`) for easy tracking.
+- **Repayment Periods**: Flexible selection of 1 Week, 2 Weeks, 3 Weeks, or 1 Month.
+- **Interest Rates**: Tiered (5%, 8%, or 10%) based on your credit score.
+
+### Group (Chama) Loans
+- **Loan Limit**: `Member's Group Contribution * Multiplier` (1.5x or 2.0x).
+- **Approval Hierarchy**:
+  - **Regular Members**: Approved by the Group Admin (Creator).
+  - **Group Admins**: Approved ONLY by the System Admin.
+
+## Step-by-Step Guide
+1. **Registration & Login**:
+   - Register with Name, Email, Phone, and National ID.
+   - The app uses a persistent Light Theme for consistent branding.
+2. **Saving Funds**:
+   - Deposit into **Flex Wallet** or **Locked Savings** via M-Pesa.
+   - **Internal Transfer**: You can move funds from Flex Wallet to Locked Savings to boost your loan limit.
+3. **Applying for a Loan**:
+   - Select "Apply for New Loan" (located at the top of the Loans screen).
+   - Choose your repayment period. Approval is instant if within limits.
+4. **Repaying a Loan**:
+   - Pay using **Flex Wallet balance** or **M-Pesa STK Push**.
+   - Status transitions to **PAID** immediately upon full settlement.
+5. **Notifications**:
+   - Smart Redirection: Selecting a notification (Message, Join Request, or Loan Approval) takes you directly to the relevant screen or group.
+6. **Groups (Chamas)**:
+   - Request to join from "Other Chamas".
+   - View your "My Pending Join Request" status if not yet approved.
+
+## Prohibited Actions (Restrictions)
+- **Withdrawals**: Blocked if you have any active or overdue individual or group loans.
+- **Chatting**: Regular users cannot search for or message users who are not in their specific Chamas or the System Admin.
+- **Peer Approval**: Group Creators cannot approve their own loan requests.
+
+## Administrator Capabilities
+- **System Admin**: Global oversight, user blocking, withdrawal approvals, and approval of Group Admin loan requests.
+- **Group Admin**: Manage membership, approve/reject member loan requests, and group deletion.
